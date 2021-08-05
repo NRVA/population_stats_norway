@@ -1,0 +1,11 @@
+Run server: python manage.py runserver
+
+
+
+
+GIT
+set up (en gang per prosjekt): https://codemy.com/git
+lagre ved endringer:
+    git add .
+    git commit -am "beskrivende kommentar"
+    git push

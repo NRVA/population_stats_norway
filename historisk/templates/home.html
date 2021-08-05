@@ -3,5 +3,18 @@
 {% block content %}
 
 <h1>Heia</h1>
+<br/>
+<br/>
+
+{{ content}}
+
+<br/>
+<br/>
+
+{% if graph %}
+{{ graph|safe }}
+{% else %}
+<p>No graph was provided.</p>
+{% endif %}
 
 {% endblock %}
